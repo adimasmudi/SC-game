@@ -121,18 +121,18 @@
 //     }
 // }
 
-// const readline = require('readline').createInterface({
-//     input : process.stdin,
-//     output : process.stdout
-// });
+const readline = require('readline').createInterface({
+    input : process.stdin,
+    output : process.stdout
+});
 
-// readline.question('Masukkan angka : ',(angka)=>{
-//     if (angka % 2 === 0){
-//         console.log('angka genap')
-//     }else{
-//         console.log('angka ganjil')
-//     }
-// })
+readline.question('Masukkan angka : ',(angka)=>{
+    if (angka % 2 === 0){
+        console.log('angka genap')
+    }else{
+        console.log('angka ganjil')
+    }
+})
 
 // temperature converter sederhana untuk mengonversi nilai derajat celcius ke satuan lain
 
@@ -199,5 +199,4 @@
 // angka = 12
 // console.log(angka)
 
-const inputan = prompt('nama :')
 
