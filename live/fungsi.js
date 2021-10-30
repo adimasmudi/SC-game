@@ -163,13 +163,32 @@
 
 // closure : nested function yang fungsi anaknya itu punya akses ke fungsi induknya
 
-function induk(x){
-    
-    function angka(y){
-        console.log(x+y);
-    }
+// function induk(x){
 
-    angka(10)
+//     function angka(y){
+//         console.log(x+y);
+//     }
+
+//     angka(10)
+// }
+
+// induk(12)
+
+
+// let a = 'a';
+// console.log(a)
+
+// if(true){
+//     let a = 'A';
+//     console.log(a)
+// }
+
+// console.log(a)
+
+// default parameter
+function sapa(nama='Manusia'){
+    nama !== 'Manusia' ? console.log(`Hallo, selamat sore ${nama}`) : console.log('harap masukkan nama')
+    
 }
 
-induk(12)
+sapa('Masmudi')
